@@ -1,0 +1,42 @@
+@import "../partials/variables";
+
+.options {
+  max-width: 35rem;
+  margin: 0 auto;
+
+  .head {
+    padding: 1rem 0;
+    height: 2.7rem;
+    border-bottom: 1px solid #777;
+    background-color: $head-back;
+
+    p {
+      font-size: 1.2rem;
+      float: left;
+      width: 60%;
+      padding: 10px;
+      padding-left: 20px;
+      color: $light-blue;
+    }
+
+    button {
+      cursor: pointer;
+      float: right;
+      padding: 0.5rem 1rem;
+      font-size: 1.1rem;
+      margin-right: 0.5rem;
+      background: $btn-back;
+      border: none;
+      color: #e8e8e8;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: $active-btn-back;
+    }
+  }
+
+  .clear {
+    clear: both;
+  }
+}

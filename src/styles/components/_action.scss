@@ -1,0 +1,21 @@
+@import "../partials/variables";
+
+.action {
+  button {
+    display: block;
+    margin: 2rem auto;
+    cursor: pointer;
+    padding: 1rem 0;
+    width: calc(min(35rem, 100%));
+    font-size: 2.3rem;
+    background: $btn-back;
+    border: none;
+    color: #e8e8e8;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background: $active-btn-back;
+  }
+}

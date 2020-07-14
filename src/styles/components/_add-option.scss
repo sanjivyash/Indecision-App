@@ -1,0 +1,54 @@
+@import "../partials/variables";
+
+.add-option {
+  padding: 1rem 0;
+  height: 2.7rem;
+  background-color: $head-back;
+  width: calc(min(35rem, 100%));
+  margin: 0 auto;
+
+  p {
+    font-size: 1.2rem;
+    float: left;
+    width: 60%;
+    padding: 10px;
+    padding-left: 20px;
+    color: $light-blue;
+  }
+
+  p {
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+
+  input:first-child {
+    float: left;
+    margin: 0.2rem 1rem;
+    padding: 0.4rem;
+    background-color: $back-color;
+    height: 1.5rem;
+    padding: 0.4rem;
+    font-size: 1.1rem;
+    color: $light-blue;
+    border-radius: 5px;
+    display: block;
+    width: 65%;
+  }
+
+  input:last-child {
+    cursor: pointer;
+    float: right;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+    background: $btn-back;
+    border: none;
+    color: #e8e8e8;
+    border-radius: 5px;
+  }
+
+  input:last-child:hover {
+    background: $active-btn-back;
+  }
+}

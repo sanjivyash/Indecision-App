@@ -1,0 +1,31 @@
+@import "../partials/variables";
+
+.option {
+  padding: 1.6rem 1rem;
+  background: $option-back;
+  max-width: 100%;
+  border-bottom: 1px solid #777;
+
+  p {
+    float: left;
+    color: $cream-color;
+    font-size: 1.4rem;
+    max-width: 85%;
+  }
+
+  a {
+    float: right;
+    cursor: pointer;
+    background-color: transparent;
+
+    i {
+      color: #fc735b;
+      font-size: 1.3rem;
+      padding: 0;
+    }
+
+    i:hover {
+      color: #fa2727;
+    }
+  }
+}
