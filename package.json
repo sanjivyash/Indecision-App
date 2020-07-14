@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack",
-    "build": "webpack --watch",
+    "build react": "webpack --watch",
     "dev": "webpack-dev-server"
   },
   "author": "Yash Sanjeev",
