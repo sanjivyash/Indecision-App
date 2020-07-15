@@ -6,7 +6,7 @@ module.exports = {
     path: path.join(__dirname, "public"),
     filename: "bundle.js",
   },
-  mode: "production",
+  mode: "development",
   module: {
     rules: [
       {
@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         use: ["style-loader", "css-loader", "sass-loader"],
-        test: /\.scss/,
+        test: /\.s?css/,
       },
     ],
   },
